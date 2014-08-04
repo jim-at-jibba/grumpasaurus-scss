@@ -1,4 +1,4 @@
-// justjibba scss structure | MIT License | github.com/jasonreece/css-burrito
+// justjibba grumpasaurus scss structure | MIT License | github.com/jim-at-jibba/grumpasaurus-scss
 
 /*************************************************************************************
 * Main.scss
@@ -11,55 +11,17 @@
 *************************************************************************************/
 
 // ----- Reset - Normalize.css ----- //
-// @import "base/normalize";
+ @import "base/normalize";
 
-// ----- Bourbon ----- //
+// ----- Optional Extras ----- //
+
+// ----- Bourbon - http://bourbon.io/ ----- //
 //@import "bourbon/bourbon";
 
-// ----- Font-awesome ----- //
-@import "libs/font-awesome/_font-awesome";
+// ----- Font-awesome - Install via bower ----- //
+//@import "libs/font-awesome/_font-awesome";
 
-// ----- Foundation ----- //
-@import "settings";
-@import "../../bower_components/foundation/scss/foundation";
 
-// Or selectively include components
-//@import
-//   "foundation/components/accordion",
-//   "foundation/components/alert-boxes",
-//   "foundation/components/block-grid",
-//   "foundation/components/breadcrumbs",
-//   "foundation/components/button-groups",
-//   "foundation/components/buttons",
-//   "foundation/components/clearing",
-//   "foundation/components/dropdown",
-//   "foundation/components/dropdown-buttons",
-//   "foundation/components/flex-video",
-//   "foundation/components/forms",
-//   "foundation/components/grid",
-//   "foundation/components/inline-lists",
-//   "foundation/components/joyride",
-//   "foundation/components/keystrokes",
-//   "foundation/components/labels",
-//   "foundation/components/magellan",
-//   "foundation/components/orbit",
-//   "foundation/components/pagination",
-//   "foundation/components/panels",
-//   "foundation/components/pricing-tables",
-//   "foundation/components/progress-bars",
-//   "foundation/components/reveal",
-//   "foundation/components/side-nav",
-//   "foundation/components/split-buttons",
-//   "foundation/components/sub-nav",
-//   "foundation/components/switch",
-//   "foundation/components/tables",
-//   "foundation/components/tabs",
-//   "foundation/components/thumbs",
-//   "foundation/components/tooltips",
-//   "foundation/components/top-bar",
-//   "foundation/components/type",
-//   "foundation/components/offcanvas",
-//   "foundation/components/visibility";
 
 /*************************************************************************************
 * Core
