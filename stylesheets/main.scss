@@ -6,63 +6,50 @@
 * and a shame section for quick fixes and hacks
 *************************************************************************************/
 
-/*************************************************************************************
-*Libraries
-*************************************************************************************/
+//----------------------------------*\
+// Reset - Normalize.css
+//----------------------------------*/
 
-// ----- Reset - Normalize.css ----- //
  @import "base/normalize";
 
-// ----- Optional Extras ----- //
+//----------------------------------*\
+// Optional Extras
+//----------------------------------*/
 
-// ----- Bourbon - http://bourbon.io/ ----- //
+// Bourbon - http://bourbon.io/
 //@import "bourbon/bourbon";
 
-// ----- Font-awesome - Install via bower ----- //
+// Font-awesome - Install via bower
 //@import "libs/font-awesome/_font-awesome";
 
 
 
-/*************************************************************************************
-* Core
-*************************************************************************************/
+//----------------------------------*\
+// CONFIG MODULES
+//----------------------------------*/
 
-// ----- Variables - base, color, typography ----- //
 @import "helpers/variables";
-
-// ----- Functions ----- //
 @import "helpers/functions";
-
-// ----- Mixins ----- //
 @import "helpers/mixins";
 
-// ----- helper styles ----- //
-@import "helpers/helpers";
+//----------------------------------*\
+// PARTIALS
+//----------------------------------*/
 
-// ----- Typogaphy - base, color, typography ----- //
-@import "base/typography";
-
-// ----- grid ----- //
+@import "base/components";
+@import "base/pages";
 @import "layout/grid";
-
-// ----- header ----- //
 @import "layout/header";
-
-// ----- navigation ----- //
 @import "layout/navigation";
-
-// ----- footer ----- //
 @import "layout/footer";
 
-// ----- Modules - Imports all module  ----- //
+//----------------------------------*\
+// OBJECTS & MODULES
+//----------------------------------*/
+
+@import "helpers/helpers";
+@import "base/typography";
 @import "base/modules";
-
-// ----- Mixins ----- //
-@import "base/components";
-
-// ----- Pages - Imports all Pages  ----- //
-@import "base/pages";
-
 
 /*************************************************************************************
 * Inbox
