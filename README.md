@@ -4,4 +4,4 @@ grumpasaurus-scss
 scss file structure starter
 
 
-## Proper Readme coming soon - I promise ;)
+## Proper Readme coming soon 
